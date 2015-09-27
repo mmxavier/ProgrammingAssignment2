@@ -2,7 +2,7 @@
 ## The function makeCacheMatrix stores a dataframe with the matrix and its inverse.
 ## The function cacheSolve calls the previous one and if the given matrix has its
 ## stored, it will return it. Otherwise, it will calculate, cache the solution and 
-## return it
+## return it.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
